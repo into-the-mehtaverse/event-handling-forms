@@ -1,0 +1,48 @@
+li {
+    list-style-type: none;
+    width: 33%;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    border-radius: 25px;
+}
+
+/* Styling based on the data-type attribute */
+li[data-type="drinks"] {
+    background-color: lightblue;
+}
+
+li[data-type="bakery"] {
+    background-color: wheat;
+}
+
+li[data-type="canned"] {
+    background-color: lightcoral;
+}
+
+li[data-type="dairy"] {
+    background-color: lightyellow;
+    color: black;
+}
+
+li[data-type="frozen"] {
+    background-color: lightcyan;
+    color: black;
+}
+
+li[data-type="meats"] {
+    background-color: lightpink;
+}
+
+li[data-type="produce"] {
+    background-color: lightgreen;
+    color: black;
+}
+
+li[data-type="toiletries"] {
+    background-color: lightgray;
+    color: black;
+}
+
+li[data-type="other"] {
+    background-color: lightpurple; /* use any color you prefer */
+}
